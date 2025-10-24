@@ -63,15 +63,9 @@ export async function POST(req: NextRequest) {
         description: description,
         size: size,
         docId: docId,
-        // Community fields
+        // User fields
         userName: userInfo.displayName || userInfo.email?.split('@')[0] || 'Anonymous',
         userAvatar: userInfo.photoURL || null,
-        category: 'other', // Default category, can be updated later
-        style: 'modern', // Default style, can be updated later
-        tags: [], // Empty tags array, can be populated later
-        likes: 0,
-        comments: 0,
-        isPublic: true, // Make posts public by default for community
         createdAt: new Date()
     })
 

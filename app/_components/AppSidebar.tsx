@@ -11,7 +11,7 @@ import {
     SidebarMenuButton,
     SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import { Calendar, Home, Inbox, Megaphone, Search, Settings, Wallet2, Users } from "lucide-react"
+import { Calendar, Home, Inbox, Megaphone, Search, Settings, Wallet2 } from "lucide-react"
 import Image from 'next/image'
 import { useParams, usePathname } from 'next/navigation'
 import { Button } from '@/components/ui/button'
@@ -30,11 +30,6 @@ const items = [
         title: "Creative Tools",
         url: "/creative-ai-tools",
         icon: Inbox,
-    },
-    {
-        title: "Community",
-        url: "/community",
-        icon: Users,
     },
     {
         title: "My Ads",

@@ -22,7 +22,6 @@ const pricingPlans = [
             "20 Credits",
             "Basic image quality",
             "Standard support",
-            "Community access",
             "Cloud storage",
             "Unlimitied downloads"
         ],
