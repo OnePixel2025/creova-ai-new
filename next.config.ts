@@ -21,6 +21,12 @@ const nextConfig: NextConfig = {
         hostname: 'oaidalleapiprodscus.blob.core.windows.net',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+        port: '',
+        pathname: '/**',
       }
     ],
     // Enable high-quality image processing
